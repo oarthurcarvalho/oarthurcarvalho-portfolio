@@ -1,0 +1,13 @@
+.form-control:focus {
+    border-color: $danger;
+    box-shadow: none !important;
+  }
+
+.address{
+  position: absolute;
+  left:     -100000px;
+  top:      auto;
+  width:    1px;
+  height:   1px;
+  overflow: hidden;
+}

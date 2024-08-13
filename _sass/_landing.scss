@@ -1,0 +1,95 @@
+#container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.circle-image{
+
+  padding-top:70%;
+  width: 70%;
+  //height: 100%;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  border-radius: 50%;
+
+  // Adding a different rule for sizing the image in medium screens
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    padding-top:100%;
+    width: 100%;
+  }
+}
+
+.center-row {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.viewport-height {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.fa-skill {
+  font-size: 60px;
+  color: black;
+  text-align: center;
+}
+
+.img-skill{
+  max-width: 60px;
+  height: auto;
+  align-items: center;
+}
+
+.img-skill, .fa-skill{
+  display: inline-block;
+  display: block;
+  margin: 0 auto; /* This will center the block-level element */
+
+  @media only screen and (max-width: 767px){
+    max-width: 50px;
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .skill{
+    padding: 0.5rem;
+  }
+}
+
+.big.card {
+  margin: 0 auto;
+  text-decoration: none !important;
+  margin: 10px auto;
+  justify-content: center;
+  border-radius: $rounded-borders;
+}
+
+.row-skills{
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.card-title-skills {
+  text-align: center;
+  // font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+[data-theme="dark"]{
+  .img-skill{
+    filter: invert(100%);
+  }
+
+  .fa-skill{
+    filter: invert(100%);
+  }
+
+  .big.card{
+    background-color: rgba(0,0,0,0);
+  }
+}

@@ -1,0 +1,15 @@
+- name: C
+  percentage: 80
+  color: secondary
+
+- name: Python
+  percentage: 70
+  color: yellow
+
+- name: JavaScript
+  percentage: 65
+  color: warning
+
+- name: Java
+  percentage: 60
+  color: info

@@ -1,0 +1,118 @@
+### Site Settings ###
+title               : Arthur Carvalho
+tagline             : Arthur Carvalho's personal website.
+description         : >-
+                      A 24-year-old Computer Science Engineering student from Italy, passionate about IoT and Machine Learning and with a basic knowledge of Electronics.
+#baseurl             : "/"                            # Comment if you are hosting your site at <your-username>.github.io directly
+url                 : https://www.arthurcarvalho.me
+repository          : oarthurcarvalho/oarthurcarvalho.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+# remote_theme        : YoussefRaafatNasry/portfolYOU
+open_new_tab        : true                             # Opens external URLs in new tab (works for posts, projects, navbar and footer only)
+source              : .
+layouts_dir         : _layouts
+includes_dir        : _includes
+sass:
+  sass_dir: ./_sass
+logo                : assets/big-logo.png
+
+
+### Plugins ###
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - pages/thanks.md
+  - pages/failed.md
+  - pages/privacy.md
+  - pages/cookies.md
+  - pages/cv.md
+
+
+### Author Info ###
+author:
+  name              : Arthur Carvalho
+  picture           : assets/profile.jpg
+  url               : https://oarthurcarvalho.me
+#  behance           : your_username
+# dribbble          : your_username
+  email             : /contact
+#  facebook          : your_username
+  github            : oarthurcarvalho
+# gitlab            : your_username
+# instagram         : your_username
+  kaggle            : oarthurcarvalho
+  linkedin          : oarthurcarvalho
+  medium            : oarthurcarvalho
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+#  twitter           : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
+
+### Social SEO###
+social:
+  name: Arthur Carvalho
+  links:
+    - https://www.linkedin.com/in/oarthurcarvalho
+    - https://github.com/oarthurcarvalho
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+
+### Analytics ###
+analytics:
+  enabled: true                                        # Set true to enable analytics
+
+
+### Buy me a coffee ###
+# See https://www.ko-fi.com/
+ko-fi:
+  enabled: false
+  username: oarthurcarvalho
+  color: '#dc3545'
+  text: An espresso?                                   # Text on the button
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true                                   # Set to true to enable Remark42 comments
+  - scope:
+      path:            "assets"
+    values:
+      sitemap:         false
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"

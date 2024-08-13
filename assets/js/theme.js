@@ -1,6 +1,6 @@
 const STORAGE_KEY = "theme";
-const THEME_ATTR  = "data-theme";
-const QUERY_KEY   = "(prefers-color-scheme: dark)";
+const THEME_ATTR = "data-theme";
+const QUERY_KEY = "(prefers-color-scheme: dark)";
 
 const themes = {
   LIGHT: "light",
@@ -17,10 +17,10 @@ function initTheme() {
     setTheme(savedTheme);
   } else if (window.matchMedia && window.matchMedia(QUERY_KEY).matches) {
     // system theme
-    setTheme(themes.DARK);
+    setTheme(themes.LIGHT);
   } else {
     // Default theme
-    setTheme(themes.LIGHT);
+    setTheme(themes.DARK);
   }
 
   // Watch for system theme changes

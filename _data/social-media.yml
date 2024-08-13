@@ -35,7 +35,7 @@ instagram:
   url   : https://www.instagram.com/
   icon  : fab fa-instagram
   color : 405de6
-  
+
 kaggle:
   url   : https://www.kaggle.com/
   icon  : fab fa-kaggle
@@ -50,6 +50,11 @@ medium:
   url   : https://medium.com/@
   icon  : fab fa-medium
   color : 00ab6c
+
+goodreads:
+  url   : https://www.goodreads.com/
+  icon  : fab fa-goodreads
+  color : 35465c
 
 soundcloud:
   url   : https://www.soundcloud.com/

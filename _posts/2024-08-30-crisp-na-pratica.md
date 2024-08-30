@@ -7,7 +7,7 @@ tags: [Teoria, Projetos]
 ---
 
 
-<img src="/assets/blog_imgs/crisp-na-pratica/crisp.webp" alt="CRISP-DM" style="width: 100%; max-width: 600px; height: auto;" />
+> *Neste artigo, apresento o framework CRISP-DM e ofereço uma abordagem prática para iniciantes que se sentem perdidos ao tentar aplicá-lo em seus projetos de ciência de dados*
 
 “Dados são o novo petróleo”. Certamente, se você trabalha na área de dados, você está cansado de ouvir esta afirmação. E não é mentira, em um mundo onde a produção de dados aumenta exponencialmente, encontrar padrões de comportamento nos dados e se utilizar disso para aumentar a receita, a satisfação do cliente e até o serviço oferecido é a regra.
 

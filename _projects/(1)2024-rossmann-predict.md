@@ -2,7 +2,7 @@
 name: Previsão de Vendas em Lojas Farmacêutica
 tools: [Machine Learning, Deploy, API]
 image: /assets/proj_imgs/rossmann.png
-description: O objetivo do projeto é utilizar um modelo de machine learning para projetar com precisão a receita futura, ajudando a otimizar as reformas e garantir que as mudanças sejam implementadas de forma eficiente e sem comprometer o fluxo de caixa.
+description: O objetivo do projeto é utilizar modelo de machine learning para projetar com precisão a receita futura, ajudando a otimizar as reformas e garantir que as mudanças sejam implementadas de forma eficiente e sem comprometer o fluxo de caixa.
 ---
 
 # Previsão de Vendas em Lojas Farmacêuticas
